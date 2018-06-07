@@ -10,6 +10,9 @@ public class Meniu {
 
     public static void main(String[] args)
     {
+        adaugare();
+        afisare();
+
 //        meniu();
 //        int optiune = SkeletonJava.readIntConsole("Alege o optiune ");
 //

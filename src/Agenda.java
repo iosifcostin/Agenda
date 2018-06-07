@@ -17,24 +17,4 @@ public class Agenda {
         }
     }
 
-    public void modifica(int pozitie, Person person){
-        agenda.set(pozitie,person);
-        System.out.println("Contactul " + (pozitie+1) + "a fost modificat");
-    }
-
-    public void sterge(int pozitie){
-
-        Person person = agenda.get(pozitie);
-        agenda.remove(pozitie);
-    }
-
-    public Person gaseste(Person person){
-        boolean exista = agenda.contains(person);
-        int pozitie = agenda.indexOf(person);
-        if (pozitie >= 0){
-            return agenda.get(pozitie);
-        }
-        return null;
-
-    }
 }
