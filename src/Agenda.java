@@ -43,9 +43,9 @@ public class Agenda {
             person = iterator.next();
             if (person.getNume().contains(search)){
                 iterator.remove();
-                adaugare();
             }
         }
+        adaugare();
     }
 
     public void adaugare()
